@@ -39,7 +39,7 @@ hr {
 }
 
 footer {
-    background-color: #142615!important;
+    background-color: #142615 !important;
 }
 
 
@@ -155,16 +155,21 @@ span {
 
 .general-info-col {
     background-color: #59733F;
-    width: 124.3%;
+    width: 111.6%;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .quick-nav-col {
     background-color: #142615;
-    width: 62.1%;
-    margin-left: auto!important;
+    width: 55.8%;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
-.quick-nav-years, .quick-nav-lakes {
+.quick-nav-years,
+.quick-nav-lakes,
+.years {
     background-color: #95A363;
     color: #FFFFFF;
     font-family: 'Quicksand', sans-serif;
@@ -178,10 +183,46 @@ span {
     width: 200px;
 }
 
-.quick-nav-years:hover, .quick-nav-lakes:hover {
+.years {
+    font-size: 1.75rem;
+    width: 200px;
+    height: 75px;
+}
+
+.quick-nav-years:hover,
+.quick-nav-lakes:hover,
+.years:hover {
     background-color: #C6D984;
     color: #000000;
 }
+
+.projection-title {
+    font-size: 1.4rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.progress-text {
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    background-color: transparent!important;
+}
+
+.progress-march {
+    top: 68.75%;
+    left: 2%;
+}
+
+.progress-april {
+    top: 68.75%;
+    left: 35.25%;
+}
+
+.progress-may {
+    top: 68.75%;
+    left: 68.5%;
+}
+
 
 /* FOOTER STYLES */
 .footer-links {
@@ -224,7 +265,7 @@ span {
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 900px) {
     .quick-nav-col {
         width: 75%;
     }
@@ -253,24 +294,24 @@ span {
         height: 300px;
     }
 
-    .general-info-col, .quick-nav-col {
+    .general-info-col,
+    .quick-nav-col {
         width: 100%;
     }
 
     .general-info-col {
-        margin-bottom: 2rem!important;
+        margin-bottom: 2rem !important;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 460px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 385px) {
     .info-heading {
-        font-size: 1.5rem;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .quick-nav-lakes, .quick-nav-years {
-        width: 150px;
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
