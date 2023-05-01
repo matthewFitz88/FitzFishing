@@ -1,0 +1,276 @@
+/* OVERALL STYLES */
+html {
+    background-color: #010440;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-family: 'Libre Baskerville', serif;
+    color: #C6D984;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+    background-color: #8ABFA6;
+    margin: 0;
+}
+
+.text-indent {
+    text-indent: 2.5rem;
+}
+
+footer {
+    background-color: #142615!important;
+}
+
+
+/* NAV STYLES */
+.active {
+    color: #8ABFA6 !important;
+}
+
+.navbar {
+    background-color: #142615;
+}
+
+.navbar-item {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-item:hover {
+    background-color: #142615 !important;
+    color: #8ABFA6 !important;
+}
+
+.navbar-menu.is-active {
+    background-color: #142615;
+}
+
+span {
+    background-color: #FFFFFF !important;
+}
+
+/* HOME STYLES */
+.home-line {
+    width: 26.7%;
+    margin: auto;
+}
+
+.recent-report,
+.best-stats {
+    background-color: #59733F;
+}
+
+.columns,
+.column {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.right-border {
+    border-right: 2px solid #8ABFA6;
+}
+
+.recent-stats {
+    font-size: 1.25rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.recent-conditions {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.home-button {
+    background-color: #95A363;
+    border: none;
+    color: #FFFFFF;
+}
+
+.home-button:hover {
+    background-color: #C6D984;
+    color: #000000 !important;
+}
+
+.stats-line {
+    width: 37%;
+}
+
+.yearly-hero {
+    background-color: #142615;
+}
+
+.overall-hero {
+    background-color: #377B3A;
+}
+
+.about-hero {
+    background-color: #000006;
+}
+
+.reports-text {
+    width: 50%;
+}
+
+.about-column {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 550px;
+    height: 550px;
+}
+
+/* RECENT REPORTS STYLES */
+.recent-line {
+    width: 21.2%;
+    margin: auto;
+}
+
+/* YEARLY REPORTS STYLES */
+.yearly-line {
+    width: 20%;
+    margin: auto;
+}
+
+.general-info-col {
+    background-color: #59733F;
+    width: 124.3%;
+}
+
+.quick-nav-col {
+    background-color: #142615;
+    width: 62.1%;
+    margin-left: auto!important;
+}
+
+.quick-nav-years, .quick-nav-lakes {
+    background-color: #95A363;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+.quick-nav-lakes {
+    width: 200px;
+}
+
+.quick-nav-years:hover, .quick-nav-lakes:hover {
+    background-color: #C6D984;
+    color: #000000;
+}
+
+/* FOOTER STYLES */
+.footer-links {
+    text-decoration: underline;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.other-links-line {
+    width: 18.5%;
+    margin: auto;
+}
+
+.navigation-line {
+    width: 17.1%;
+    margin: auto;
+}
+
+.contact-line {
+    width: 12.6%;
+    margin: auto;
+}
+
+.footer-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: .75rem;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1150px) {
+    .about-img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .about-img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .quick-nav-col {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .about-img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .right-border {
+        border-right: none;
+        border-bottom: 2px solid #8ABFA6;
+    }
+
+    .reverse-columns {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .general-info-col, .quick-nav-col {
+        width: 100%;
+    }
+
+    .general-info-col {
+        margin-bottom: 2rem!important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .quick-nav-lakes, .quick-nav-years {
+        width: 150px;
+        font-size: 1rem;
+    }
+}
