@@ -199,28 +199,7 @@ span {
 .projection-title {
     font-size: 1.4rem;
     font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-}
-
-.progress-text {
-    position: absolute;
-    font-family: 'Quicksand', sans-serif;
-    background-color: transparent!important;
-}
-
-.progress-march {
-    top: 68.75%;
-    left: 2%;
-}
-
-.progress-april {
-    top: 68.75%;
-    left: 35.25%;
-}
-
-.progress-may {
-    top: 68.75%;
-    left: 68.5%;
+    font-weight: 500;
 }
 
 
@@ -301,6 +280,14 @@ span {
 
     .general-info-col {
         margin-bottom: 2rem !important;
+    }
+
+    .progress {
+        margin-bottom: 2rem!important;
+    }
+
+    .season-bar {
+        margin-bottom: 5rem!important;
     }
 }
 
