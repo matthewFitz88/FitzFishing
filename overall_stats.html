@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+    <title>Home | FitzFishing</title>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="index.html">Home</a>
+                <a class="navbar-item" href="recent_reports.html">Recent Reports</a>
+                <a class="navbar-item" href="yearly_reports.html">Yearly Reports</a>
+                <a class="navbar-item active" href="overall_stats.html">Overall Statistics</a>
+            </div>
+        </div>
+    </nav>
+    <main role="main">
+        <section class="section">
+            <div class="container">
+                <h1 class="has-text-centered has-text-white">Overall Statistics</h1>
+                <hr class="recent-line">
+            </div>
+            <div class="container is-fluid">
+                <div class="level-right mt-6">
+                    <div class="level-item">
+                        <div class="field has-addons">
+                            <p class="control">
+                                <input class="input" type="text" placeholder="Search Lake">
+                            </p>
+                            <p class="control">
+                                <button class="button" type="submit">Search</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="has-text-centered has-text-white mb-6">General Statistics</h2>
+            </div>
+            <div class="container is-fluid">
+                <div class="columns is-flex is-justify-content-center is-flex-wrap-wrap overall-table-columns">
+                    <div class="column">
+                        <table class="table mx-auto has-text-centered has-text-white is-bordered mb-5 overall-table">
+                            <thead>
+                                <tr>
+                                    <th class="table-header has-text-white has-text-centered" colspan="3">Total and
+                                        Percent Fish Caught</th>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white">Location</th>
+                                    <th class="has-text-centered has-text-white">Total</th>
+                                    <th class="has-text-centered has-text-white">Percent</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Adams</td>
+                                    <td>696</td>
+                                    <td>7.38%</td>
+                                </tr>
+                                <tr>
+                                    <td>East Canyon</td>
+                                    <td>321</td>
+                                    <td>3.40%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="column">
+                        <table class="table mx-auto has-text-centered has-text-white is-bordered mb-5 overall-table">
+                            <thead>
+                                <tr>
+                                    <th class="table-header has-text-white has-text-centered" colspan="3">Total and
+                                        Percent Species Caught</th>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white">Species</th>
+                                    <th class="has-text-centered has-text-white">Total</th>
+                                    <th class="has-text-centered has-text-white">Percent</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Albino Rainbow</td>
+                                    <td>1</td>
+                                    <td>0.01%</td>
+                                </tr>
+                                <tr>
+                                    <td>Bluegill</td>
+                                    <td>255</td>
+                                    <td>2.70%</td>
+                                </tr>
+                                <tr>
+                                    <td>Brook</td>
+                                    <td>2</td>
+                                    <td>0.02%</td>
+                                </tr>
+                                <tr>
+                                    <td>Brown</td>
+                                    <td>33</td>
+                                    <td>0.35%</td>
+                                </tr>
+                                <tr>
+                                    <td>Bullhead Catfish</td>
+                                    <td>43</td>
+                                    <td>0.46%</td>
+                                </tr>
+                                <tr>
+                                    <td>Carp</td>
+                                    <td>4</td>
+                                    <td>0.04%</td>
+                                </tr>
+                                <tr>
+                                    <td>Channel Catfish</td>
+                                    <td>28</td>
+                                    <td>0.30%</td>
+                                </tr>
+                                <tr>
+                                    <td>Chub</td>
+                                    <td>63</td>
+                                    <td>0.67%</td>
+                                </tr>
+                                <tr>
+                                    <td>Crappie</td>
+                                    <td>484</td>
+                                    <td>5.13%</td>
+                                </tr>
+                                <tr>
+                                    <td>Coho</td>
+                                    <td>1</td>
+                                    <td>0.01%</td>
+                                </tr>
+                                <tr>
+                                    <td>Cutthroat</td>
+                                    <td>5041</td>
+                                    <td>53.46%</td>
+                                </tr>
+                                <tr>
+                                    <td>Kokanee</td>
+                                    <td>24</td>
+                                    <td>0.25%</td>
+                                </tr>
+                                <tr>
+                                    <td>Lake Trout</td>
+                                    <td>2</td>
+                                    <td>0.02%</td>
+                                </tr>
+                                <tr>
+                                    <td>Largemouth Bass</td>
+                                    <td>10</td>
+                                    <td>0.11%</td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Muskie</td>
+                                    <td>2</td>
+                                    <td>0.02%</td>
+                                </tr>
+                                <tr>
+                                    <td>Perch</td>
+                                    <td>315</td>
+                                    <td>3.34%</td>
+                                </tr>
+                                <tr>
+                                    <td>Rainbow</td>
+                                    <td>3064</td>
+                                    <td>32.50%</td>
+                                </tr>
+                                <tr>
+                                    <td>Smallmouth Bass</td>
+                                    <td>15</td>
+                                    <td>0.16%</td>
+                                </tr>
+                                <tr>
+                                    <td>Splake</td>
+                                    <td>3</td>
+                                    <td>0.03%</td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Trout</td>
+                                    <td>20</td>
+                                    <td>0.21%</td>
+                                </tr>
+                                <tr>
+                                    <td>True Muskie</td>
+                                    <td>1</td>
+                                    <td>0.01%</td>
+                                </tr>
+                                <tr>
+                                    <td>Walleye</td>
+                                    <td>5</td>
+                                    <td>0.05%</td>
+                                </tr>
+                                <tr>
+                                    <td>Wiper</td>
+                                    <td>13</td>
+                                    <td>0.14%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="columns is-flex is-justify-content-center is-flex-wrap-wrap overall-table-columns">
+                    <div class="column">
+                        <table class="table mx-auto has-text-centered has-text-white is-bordered mb-5 overall-table">
+                            <thead>
+                                <tr>
+                                    <th class="table-header has-text-white has-text-centered" colspan="3">Total and
+                                        Percent per Month</th>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white">Month</th>
+                                    <th class="has-text-centered has-text-white">Total</th>
+                                    <th class="has-text-centered has-text-white">Percent</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>January</td>
+                                    <td>424</td>
+                                    <td>4.50%</td>
+                                </tr>
+                                <tr>
+                                    <td>February</td>
+                                    <td>613</td>
+                                    <td>6.50%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="column">
+                        <table class="table mx-auto has-text-centered has-text-white is-bordered overall-table">
+                            <thead>
+                                <tr>
+                                    <th class="table-header has-text-white has-text-centered" colspan="3">Total and
+                                        Percent per Season</th>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white">Season</th>
+                                    <th class="has-text-centered has-text-white">Total</th>
+                                    <th class="has-text-centered has-text-white">Percent</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Spring</td>
+                                    <td>1428</td>
+                                    <td>15.14%</td>
+                                </tr>
+                                <tr>
+                                    <td>Summer</td>
+                                    <td>3861</td>
+                                    <td>40.95%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table mx-auto has-text-centered has-text-white is-bordered mb-5 overall-table">
+                            <thead>
+                                <tr>
+                                    <th class="table-header has-text-white has-text-centered" colspan="3">Overall Totals
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white">Trips</th>
+                                    <th class="has-text-centered has-text-white">Fish Caught</th>
+                                    <th class="has-text-centered has-text-white">Average</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>444</td>
+                                    <td>9429</td>
+                                    <td>21</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="columns is-flex is-justify-content-space-around is-flex-wrap-wrap image-columns">
+                    <div class="column is-two-fifths image-column">
+                        <figure class="image is-3by2 mb-5">
+                            <img src="images/tiger muskie1.jpg" alt="Most recent report image for (lake name)">
+                        </figure>
+                        <figure class="image is-3by2">
+                            <img src="images/tiger muskie1.jpg" alt="Most recent report image for (lake name)">
+                        </figure>
+                    </div>
+                    <div class="column is-two-fifths image-column">
+                        <figure class="image is-3by2 mb-5">
+                            <img src="images/tiger muskie1.jpg" alt="Most recent report image for (lake name)">
+                        </figure>
+                        <figure class="image is-3by2">
+                            <img src="images/tiger muskie1.jpg" alt="Most recent report image for (lake name)">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="has-text-centered has-text-white mb-6">Adams</h2>
+            </div>
+            <div class="container is-fluid">
+                <div class="columns is-flex is-justify-content-center is-flex-wrap-wrap overall-table-columns">
+                    <div class="column">
+                        <table class="table mx-auto has-text-centered has-text-white is-bordered mb-5 overall-table">
+                            <thead>
+                                <tr>
+                                    <th class="table-header has-text-white has-text-centered" colspan="3">Total and
+                                        Percent
+                                        Species Caught</th>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white">Species</th>
+                                    <th class="has-text-centered has-text-white">Total</th>
+                                    <th class="has-text-centered has-text-white">Percent</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bluegill</td>
+                                    <td>51</td>
+                                    <td>7.34%</td>
+                                </tr>
+                                <tr>
+                                    <td>Brook</td>
+                                    <td>1</td>
+                                    <td>0.14%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="column">
+                        <table class="table mx-auto has-text-centered has-text-white is-bordered mb-5 overall-table">
+                            <tbody>
+                                <tr>
+                                    <th class="has-text-centered has-text-white lake-totals">Total</th>
+                                    <td>695</td>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white lake-totals">Trips</th>
+                                    <td>66</td>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white lake-totals">Average</th>
+                                    <td>11</td>
+                                </tr>
+                                <tr>
+                                    <th class="has-text-centered has-text-white lake-totals">Rating</th>
+                                    <td class="rating-slow">Slow</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="columns is-flex is-justify-content-space-around is-flex-wrap-wrap image-columns">
+                    <div class="column is-two-fifths image-column">
+                        <figure class="image is-3by2 mb-5">
+                            <img src="images/tiger muskie1.jpg" alt="Most recent report image for (lake name)">
+                        </figure>
+                        <figure class="image is-3by2">
+                            <img src="images/tiger muskie1.jpg" alt="Most recent report image for (lake name)">
+                        </figure>
+                    </div>
+                    <div class="column is-two-fifths image-column">
+                        <figure class="image is-3by2 mb-5">
+                            <img src="images/tiger muskie1.jpg" alt="Most recent report image for (lake name)">
+                        </figure>
+                        <figure class="image is-3by2">
+                            <img src="images/tiger muskie1.jpg" alt="Most recent report image for (lake name)">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+                    <ul class="pagination-list">
+                        <li><a class="pagination-link next">&lt;</a></li>
+                        <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+                        <li><a class="pagination-link" aria-label="Goto page 2">2</a></li>
+                        <li><a class="pagination-link is-current" aria-label="Page 3" aria-current="page">3</a></li>
+                        <li><a class="pagination-link" aria-label="Goto page 4">4</a></li>
+                        <li><a class="pagination-link" aria-label="Goto page 5">5</a></li>
+                        <li><a class="pagination-link previous">&gt;</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <div class="container is-fluid">
+            <h2 class="has-text-centered has-text-white py-4">FitzFishing Report</h2>
+            <hr class="mb-4">
+            <div class="columns is-variable is-12">
+                <div class="column has-text-centered">
+                    <h3 class="has-text-white mt-4">Other Links</h3>
+                    <hr class="other-links-line mb-4">
+                    <a class="has-text-white footer-links" href="https://dwrapps.utah.gov/fishing/fStart">Utah Fishing
+                        Report</a><br>
+                    <a class="has-text-white footer-links" href="https://dwrapps.utah.gov/fishstocking/Fish">Utah Fish
+                        Stocking Report</a>
+                </div>
+                <div class="column has-text-centered">
+                    <h3 class="has-text-white mt-4">Naviagtion</h3>
+                    <hr class="navigation-line mb-4">
+                    <a class="has-text-white footer-links" href="index.html">Home</a><br>
+                    <a class="has-text-white footer-links" href="recent_reports.html">Recent Reports</a><br>
+                    <a class="has-text-white footer-links" href="yearly_reports.html">Yearly Reports</a><br>
+                    <a class="has-text-white footer-links" href="overall_stats.html">Overall Statistics</a><br>
+                    <a class="has-text-white footer-links" href="about.html">About</a>
+                </div>
+                <div class="column has-text-centered">
+                    <h3 class="has-text-white mt-4">Contact</h3>
+                    <hr class="contact-line mb-4">
+                    <a class="has-text-white footer-links" href="about.html#contact-form">Message</a><br>
+                    <a class="has-text-white footer-links"
+                        href="https://fishbrain.com/anglers/FitzFishing88">FishBrain</a><br>
+                </div>
+            </div>
+            <p class="has-text-white footer-text mt-6">Data shown from Sept 16, 2017 - Dec 31, 2021 | Posted by: Matthew
+                Fitzgerald</p>
+        </div>
+    </footer>
+</body>
+
+</html>

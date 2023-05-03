@@ -202,6 +202,88 @@ span {
     font-weight: 500;
 }
 
+/* OVERALL STATS STYLES */
+.jump-to,
+.jump-to-items {
+    background-color: #377B3A;
+    border: none;
+    font-size: 1.25rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jump-to-text {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jump-to-text:hover {
+    color: #000000 !important;
+}
+
+.table {
+    font-family: 'Quicksand', sans-serif;
+    width: 75%;
+}
+
+thead {
+    background-color: #000006 !important;
+}
+
+tbody {
+    background-color: #A1A8A1 !important;
+}
+
+tr,
+th,
+td {
+    border: 1px solid #142615 !important;
+}
+
+th,
+td {
+    width: 33.33%;
+}
+
+.table-header {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+}
+
+.table-titles {
+    font-size: 1.25rem;
+}
+
+.lake-totals {
+    background-color: #000006;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.rating-slow {
+    color: #ADD8E6;
+}
+
+.pagination-link {
+    background-color: #95A363;
+    color: #FFFFFF;
+    border: none;
+}
+
+.is-current {
+    background-color: #8ABFA6!important;
+    color: #000000!important;
+}
+
+.next, .previous {
+    display: flex;
+    background-color: #A1A8A1;
+    border: none;
+    color: #FFFFFF;
+}
+
+.pagination-link:hover {
+    background-color: #C6D984;
+}
+
 
 /* FOOTER STYLES */
 .footer-links {
@@ -283,12 +365,38 @@ span {
     }
 
     .progress {
-        margin-bottom: 2rem!important;
+        margin-bottom: 2rem !important;
     }
 
     .season-bar {
-        margin-bottom: 5rem!important;
+        margin-bottom: 5rem !important;
     }
+
+    .overall-table-columns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .overall-table {
+        margin-bottom: 2rem !important;
+        width: 100%;
+    }
+
+    .image-columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-column {
+        width: 100% !important;
+        margin-bottom: 2rem!important;
+    }
+}
+
+@media screen and (max-width: 725px) {
+
 }
 
 @media screen and (max-width: 460px) {
