@@ -169,7 +169,7 @@ span {
 
 .quick-nav-years,
 .quick-nav-lakes,
-.years {
+.years, .location-links {
     background-color: #95A363;
     color: #FFFFFF;
     font-family: 'Quicksand', sans-serif;
@@ -191,7 +191,7 @@ span {
 
 .quick-nav-years:hover,
 .quick-nav-lakes:hover,
-.years:hover {
+.years:hover, .location-links:hover {
     background-color: #C6D984;
     color: #000000;
 }
@@ -203,6 +203,11 @@ span {
 }
 
 /* OVERALL STATS STYLES */
+.overall-line {
+    width: 23%;
+    margin: auto;
+}
+
 .jump-to,
 .jump-to-items {
     background-color: #377B3A;
@@ -262,6 +267,22 @@ td {
     color: #ADD8E6;
 }
 
+.rating-fair {
+    color: #FFFF00;
+}
+
+.rating-average {
+    color: #0000FF;
+}
+
+.rating-good {
+    color: #06470C;
+}
+
+.rating-hot {
+    color: #FF0000;
+}
+
 .pagination-link {
     background-color: #95A363;
     color: #FFFFFF;
@@ -274,7 +295,6 @@ td {
 }
 
 .next, .previous {
-    display: flex;
     background-color: #A1A8A1;
     border: none;
     color: #FFFFFF;
@@ -282,6 +302,21 @@ td {
 
 .pagination-link:hover {
     background-color: #C6D984;
+}
+
+/* YEAR STYLES */
+.line_2018 {
+    width: 8.25%;
+    margin: auto;
+}
+
+.location-select {
+    background-color: #142615;
+    width: 43%;
+}
+
+.location-links {
+    width: 225px;
 }
 
 
@@ -395,8 +430,16 @@ td {
     }
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 640px) {
+    .location-select {
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 470px) {
+    .next, .previous {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 460px) {
