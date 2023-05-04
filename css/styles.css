@@ -294,7 +294,7 @@ td {
     color: #000000!important;
 }
 
-.next, .previous {
+.next, .previous, .biggest-next, .biggest-previous {
     background-color: #A1A8A1;
     border: none;
     color: #FFFFFF;
@@ -302,6 +302,41 @@ td {
 
 .pagination-link:hover {
     background-color: #C6D984;
+}
+
+/* ABOUT STYLES */
+.about-line {
+    width: 8.48%;
+    margin: auto;
+}
+
+.about-page-img {
+    width: 500px;
+}
+
+.about-text {
+    width: 75%;
+}
+
+.about-table {
+    width: 53.45%;
+}
+
+.biggest-fish-text {
+    background-color: #000000;
+    max-width: 1200px;
+    /* width: 97.5%; */
+}
+
+.biggest-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    text-align: left!important;
+}
+
+.biggest-fish-img {
+    max-width: 1200px;
+    max-height: 792px;
 }
 
 /* YEAR STYLES */
@@ -363,6 +398,10 @@ td {
 
 @media screen and (max-width: 900px) {
     .quick-nav-col {
+        width: 75%;
+    }
+
+    .about-table {
         width: 75%;
     }
 }
@@ -428,11 +467,25 @@ td {
         width: 100% !important;
         margin-bottom: 2rem!important;
     }
+
+    .about-text, .about-table {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 640px) {
     .location-select {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .about-page-img {
+        width: 75%
+    }
+
+    .biggest-text {
+        font-size: 1.25rem;
     }
 }
 
