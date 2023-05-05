@@ -322,21 +322,22 @@ td {
     width: 53.45%;
 }
 
+.biggestFish {
+    position: relative;
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+}
+
 .biggest-fish-text {
+    width: 100%;
     background-color: #000000;
-    max-width: 1200px;
-    /* width: 97.5%; */
 }
 
 .biggest-text {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
     text-align: left!important;
-}
-
-.biggest-fish-img {
-    max-width: 1200px;
-    max-height: 792px;
 }
 
 /* YEAR STYLES */
@@ -470,6 +471,10 @@ td {
 
     .about-text, .about-table {
         width: 100%;
+    }
+
+    .reports-text {
+        width: 95%;
     }
 }
 

@@ -57,7 +57,7 @@
                         alt="21 inch East Canyon Reservoir Brown Trout">
                 </div>
                 <div class="bestCatches">
-                    <img src="../images/bestCatches/2018/22in_cutt.JPG"
+                    <img src="../images/bestCatches/2018/22in_cutt.png"
                         alt="22 inch Strawberry Reservoir Cutthroat Trout">
                 </div>
                 <div class="bestCatches">
@@ -265,7 +265,8 @@
                         <table class="table mx-auto has-text-centered has-text-white is-bordered mb-5 overall-table">
                             <thead>
                                 <tr>
-                                    <th class="table-header has-text-white has-text-centered" colspan="2">Rating Breakdown</th>
+                                    <th class="table-header has-text-white has-text-centered" colspan="2">Rating
+                                        Breakdown</th>
                                 </tr>
                                 <tr>
                                     <th class="has-text-centered has-text-white">Rating</th>
@@ -419,6 +420,23 @@
                 Fitzgerald</p>
         </div>
     </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("bestCatches");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000);
+        }
+    </script>
 </body>
 
 </html>
