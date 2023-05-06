@@ -355,6 +355,23 @@ td {
     width: 225px;
 }
 
+/* LAKE REPORT STYLES */
+.lake-report-table {
+    width: 100%;
+}
+
+.lake-report-table tr:nth-child(odd) {
+    background-color: #000006;
+}
+
+.lake-report-totals {
+    font-weight: bold;
+}
+
+.strawberry-2018 th, .strawberry-2018 td {
+    width: 10%;
+}
+
 
 /* FOOTER STYLES */
 .footer-links {
