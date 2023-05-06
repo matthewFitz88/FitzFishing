@@ -169,7 +169,8 @@ span {
 
 .quick-nav-years,
 .quick-nav-lakes,
-.years, .location-links {
+.years,
+.location-links {
     background-color: #95A363;
     color: #FFFFFF;
     font-family: 'Quicksand', sans-serif;
@@ -191,7 +192,8 @@ span {
 
 .quick-nav-years:hover,
 .quick-nav-lakes:hover,
-.years:hover, .location-links:hover {
+.years:hover,
+.location-links:hover {
     background-color: #C6D984;
     color: #000000;
 }
@@ -290,11 +292,14 @@ td {
 }
 
 .is-current {
-    background-color: #8ABFA6!important;
-    color: #000000!important;
+    background-color: #8ABFA6 !important;
+    color: #000000 !important;
 }
 
-.next, .previous, .biggest-next, .biggest-previous {
+.next,
+.previous,
+.biggest-next,
+.biggest-previous {
     background-color: #A1A8A1;
     border: none;
     color: #FFFFFF;
@@ -337,7 +342,7 @@ td {
 .biggest-text {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
-    text-align: left!important;
+    text-align: left !important;
 }
 
 /* YEAR STYLES */
@@ -357,10 +362,18 @@ td {
 
 /* LAKE REPORT STYLES */
 .lake-report-table {
-    width: 100%;
+    width: 98%;
+}
+
+.lake-species-table {
+    width: 75%;
 }
 
 .lake-report-table tr:nth-child(odd) {
+    background-color: #000006;
+}
+
+.lake-species-table tr:nth-child(even) {
     background-color: #000006;
 }
 
@@ -368,8 +381,43 @@ td {
     font-weight: bold;
 }
 
-.strawberry-2018 th, .strawberry-2018 td {
+.report-showcase-img {
+    width: 480px;
+}
+
+.report-species-table {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.strawberry-2018 th,
+.strawberry-2018 td {
     width: 10%;
+}
+
+.strat-heading {
+    color: #8ABFA6;
+    margin-left: 5rem !important;
+}
+
+.strat-text {
+    width: 75%;
+}
+
+.strat-subheading {
+    margin-left: 10rem !important;
+}
+
+.strat-list {
+    margin-left: 13rem !important;
+}
+
+.strat-img {
+    float: right;
+}
+
+.strawberry-video {
+    width: 50%;
 }
 
 
@@ -407,6 +455,23 @@ td {
     }
 }
 
+@media screen and (max-width: 1090px) {
+    .report-table-img {
+        flex-direction: column;
+    }
+
+    .is-justify-content-flex-end {
+        justify-content: flex-start !important;
+        margin-right: 0 !important;
+        margin-left: 1rem !important;
+    }
+
+    .report-showcase-img,
+    .lake-species-table {
+        width: 75%;
+    }
+}
+
 @media screen and (max-width: 975px) {
     .about-img {
         width: 300px;
@@ -421,6 +486,11 @@ td {
 
     .about-table {
         width: 75%;
+    }
+
+    .strat-img {
+        float: none;
+        margin-left: 5rem!important;
     }
 }
 
@@ -483,20 +553,50 @@ td {
 
     .image-column {
         width: 100% !important;
-        margin-bottom: 2rem!important;
+        margin-bottom: 2rem !important;
     }
 
-    .about-text, .about-table {
+    .about-text,
+    .about-table {
         width: 100%;
     }
 
     .reports-text {
         width: 95%;
     }
+
+    .strat-text {
+        width: 100%;
+    }
+
+    .strat-heading {
+        margin-left: 0 !important;
+    }
+
+    .strat-subheading {
+        margin-left: 3rem !important;
+    }
+
+    .strat-list {
+        margin-left: 6rem !important;
+    }
+
+    .strawberry-video {
+        width: 100%;
+    }
+
+    .strat-img {
+        margin-left: 0!important;
+    }
 }
 
 @media screen and (max-width: 640px) {
     .location-select {
+        width: 100%;
+    }
+
+    .report-showcase-img,
+    .lake-species-table {
         width: 100%;
     }
 }
@@ -512,7 +612,9 @@ td {
 }
 
 @media screen and (max-width: 470px) {
-    .next, .previous {
+
+    .next,
+    .previous {
         display: none;
     }
 }
