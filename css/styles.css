@@ -346,9 +346,17 @@ td {
 }
 
 /* YEAR STYLES */
-.line_2018 {
-    width: 8.25%;
+.best-catches-container {
+    max-width: 1000px;
+}
+
+.line_2018, .line_2022 {
+    width: 5.95%;
     margin: auto;
+}
+
+.year-graph-img {
+    width: 645px;
 }
 
 .location-select {
