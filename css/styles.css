@@ -137,8 +137,7 @@ span {
 }
 
 .about-img {
-    width: 550px;
-    height: 550px;
+    border-radius: 50%!important;
 }
 
 /* RECENT REPORTS STYLES */
@@ -346,10 +345,6 @@ td {
 }
 
 /* YEAR STYLES */
-.best-catches-container {
-    max-width: 1000px;
-}
-
 .line_2018, .line_2022 {
     width: 5.95%;
     margin: auto;
@@ -377,6 +372,10 @@ td {
     width: 75%;
 }
 
+.no-img {
+    width: 37.5%;
+}
+
 .lake-report-table tr:nth-child(odd) {
     background-color: #000006;
 }
@@ -393,13 +392,8 @@ td {
     width: 480px;
 }
 
-.report-species-table {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.strawberry-2018 th,
-.strawberry-2018 td {
+.lake-cell-width th,
+.lake-cell-width td {
     width: 10%;
 }
 
@@ -456,13 +450,6 @@ td {
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 1150px) {
-    .about-img {
-        width: 400px;
-        height: 400px;
-    }
-}
-
 @media screen and (max-width: 1090px) {
     .report-table-img {
         flex-direction: column;
@@ -478,12 +465,9 @@ td {
     .lake-species-table {
         width: 75%;
     }
-}
 
-@media screen and (max-width: 975px) {
-    .about-img {
-        width: 300px;
-        height: 300px;
+    .hobbs-showcase-2022 {
+        width: 480px;
     }
 }
 
@@ -502,13 +486,6 @@ td {
     }
 }
 
-@media screen and (max-width: 875px) {
-    .about-img {
-        width: 250px;
-        height: 250px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .right-border {
         border-right: none;
@@ -518,11 +495,6 @@ td {
     .reverse-columns {
         display: flex;
         flex-direction: column-reverse;
-    }
-
-    .about-img {
-        width: 300px;
-        height: 300px;
     }
 
     .general-info-col,
@@ -607,6 +579,15 @@ td {
     .lake-species-table {
         width: 100%;
     }
+
+    .no-img {
+        margin-right: .25rem!important;
+        margin-left: .25rem!important;
+    }
+
+    .hobbs-showcase-2022 {
+        margin-bottom: 2rem!important;
+    }
 }
 
 @media screen and (max-width: 625px) {
@@ -619,8 +600,13 @@ td {
     }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
+    .hobbs-showcase-2022 {
+        margin-bottom: 0!important;
+    }
+}
 
+@media screen and (max-width: 470px) {
     .next,
     .previous {
         display: none;
